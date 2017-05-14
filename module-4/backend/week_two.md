@@ -14,6 +14,9 @@ Note: When you're done, submit a PR.
   Anonymous function syntax is now `() => {}` and automatically binds `this` to the current scope.
 
 4. What's the deal with semi-colons in JavaScript?
+
+  Semi-colons are there for the compiler. They are mostly optional because the compiler will inject them for the developer, but it could be good to insert them yourself for more complete control.
+
 5. How are you using the MVC design pattern in your Quantified Self project?
 
   I'm using controllers to handle requests, models to interact with the database, and the views are represented as the JSON response sent by the API.
