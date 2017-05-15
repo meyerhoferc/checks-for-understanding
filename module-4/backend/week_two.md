@@ -9,6 +9,9 @@ Note: When you're done, submit a PR.
   Webpack is a node module that manages what static files are needed for a browser to render a page and creates a single file for the browser to digest. It's useful because it speeds up the browser rendering process and does pre-processing.
 
 2. When do you want to use event delegation?
+
+  When dealing with newly created DOM nodes that we want an event listener on, event delegation allows us to use how events bubble in event loops by setting a listener on the parent.
+
 3. What's one difference between ES5 and ES6?
 
   Anonymous function syntax is now `() => {}` and automatically binds `this` to the current scope.
