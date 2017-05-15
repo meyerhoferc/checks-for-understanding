@@ -36,6 +36,24 @@ Note: When you're done, submit a PR.
 #### Review  
 
 9. Why do people say "HTTP is stateless"?
+
+  HTTP is stateless, meaning that it doesn't track or manage state across the request/response cycle. One way this is managed is through the use of cookies / sessions, at least for small pieces of data we don't want to store in a database.
+
 10. What is a RESTful API?
+
+  A RESTful API means that the API was architected according to REST principles. REST stands for Representational State Transfer and means that the API has routes and controller-actions are made to convention for a resource.
+
 11. What are some main characteristics of a team following an agile workflow?
+
+  Following an agile workflow means that the developer frequently engages in reflection and adjustment of the code, both independently and with others on the team.
+
 12. What are some advantages/disadvantages to using OAuth to authenticate a user?
+
+  Advantages:
+    * don't have to manage authentication as closely
+    * user has fewer passwords to remember
+    
+  Disadvantages:
+    * user may not have third party account to authenticate with
+    * relying on third party service doesn't give developers as much control
+  
