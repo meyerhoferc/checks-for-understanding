@@ -34,6 +34,9 @@ Using staging environments allows us to test out what production will look/feel 
   * has tips on errors / debugging common problems
 
 * What's one main improvement you're going to make to your code regarding accessibility issues?
+
+running tools to check accessibility issues and go from there
+
 * What are some basic security concerns to be aware of when building applications?
 
   * user authentication / authorization
@@ -64,5 +67,16 @@ Travis, Jenkins, Puppet, Chef
 #### Review  
 
 * What are some characteristics of "good" git workflow?
+
+ * small atomic commits
+ * branches named for features
+ * PRs that describe the code that's changed and asks for feedback for certain parts of the code if necessary
+ * making frequent PRs (shouldn't have a lot of commits for one PR)
+
 * What are the four fundamental concepts of object oriented programming?
+
+ 
+
 * What's a module in Ruby and what's the difference between a class and a module?
+
+ A module is a way to store static information and provide namespacing and mixins for classes. A class is a way to manage state in an object-oriented way. A class is a representation of a template for something. It has attributes and behaviors.
