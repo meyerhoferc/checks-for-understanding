@@ -75,7 +75,10 @@ Travis, Jenkins, Puppet, Chef
 
 * What are the four fundamental concepts of object oriented programming?
 
- 
+  * encapsulation
+  * abstraction
+  * inheritance
+  * polymorphism
 
 * What's a module in Ruby and what's the difference between a class and a module?
 
